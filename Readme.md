@@ -28,4 +28,4 @@ de gasto de espacio y tiempo, podría resultar también en algo realmente difíc
 Para realizar este proyecto utilizaré como lenguaje python fundamentalmente debido a que es el con el que más he estado trabajando.
 Valoraré el uso de la librería pygame, para una mejor interfaz gráfica, así como el uso de NumPy para un manejo de gran cantidad de datos.
 
-## Link del repositorio: [Simulador de reserva de asientos](
+## Link del repositorio: [Simulador de reserva de asientos](https://github.com/Valdi183/Simulador_reserva_asientos)
