@@ -1,0 +1,23 @@
+El analisis de eficiencia está dedicado unicamente al codigo de "simulación.py", ya que debido a los problemas mencionados, no he podido ejecutar correctamente el programa
+
+El arbol AVL tiene las siguientes operaciones:
+Inserción (insertar)
+Rotaciones (rotacion_izquierda y rotacion_derecha)
+Búsqueda 
+Espacio
+
+Las operaciones y su complejidad:
+Búsqueda de la posición: Como el árbol está balanceado, encontrar la posición adecuada para un nuevo nodo toma O(log(n))
+
+Actualización de alturas: En el peor de los casos, la actualización de las alturas de los nodos en la ruta desde el nodo insertado hasta la raíz tarda
+O(logn) tiempo.
+
+Rotación: Después de una inserción, como máximo se necesitan realizar una o dos rotaciones para restaurar el balance en el árbol AVL que tarda O(1) tiempo en todos los casos
+
+Dado que el árbol está balanceado, la altura del árbol es O(log(n)) y la busqueda también tarda O(log(n))
+
+Analizando En Big-O, Theta y Omega
+Inserción: peor caso (Big-O) O(log(n)), caso promedio (Theta) 0log(n), mejor caso (omega)  Ω (1)
+Rotación: peor caso (Big-O) O(1), caso promedio (Theta) 0(1), mejor caso (omega)  Ω (1)
+Busqueda: peor caso (Big-O) O(log(n)), caso promedio (Theta) 0log(n), mejor caso (omega)  Ω (1)
+Espacio: peor caso (Big-O) O(n), caso promedio (Theta) 0(n), mejor caso (omega)  Ω (n)
